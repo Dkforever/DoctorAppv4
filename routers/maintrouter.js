@@ -13,7 +13,7 @@ const router = express.Router();
 
 
 // admin  User / Patient
-router.route("/patients").get(patient);
+//router.route("/patients").get(patient);
 router.route("/patient/SearchPatient").get(SearchPatient);
 router.route("/patient/register").post(registerAadmin);
 router.route("/patient/login").post(loginAdmin);

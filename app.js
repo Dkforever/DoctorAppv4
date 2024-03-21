@@ -14,21 +14,6 @@ app.use(cookieParser());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 
-// adminfire.initializeApp({
-//     credential: adminfire.credential.cert(serviceAccount),
-//     // databaseURL: 'https://your-project-id.firebaseio.com', // Replace with your Firebase project URL
-//   });
-
-
-
-
-// app.use(fileUpload({
-//     limits: { fileSize: 50 * 1024 * 1024 },
-//     useTempFiles: true,
-
-// }));
-
-//routers
  const vapp = require("./routers/maintrouter");
 
 

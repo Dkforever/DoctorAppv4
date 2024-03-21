@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
-const Admin = require("../models/admin");
-const Labtest = require("../models/Labtest");
+const Admin = require("./admin");
+const Labtest = require("./Labtest");
 //add to cart lab test
 const cartTestschema = mongoose.Schema({
   

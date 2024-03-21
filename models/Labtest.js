@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const Admin = require("../models/admin");
+const Admin = require("./admin");
 
 const TestSchema = mongoose.Schema({
 
